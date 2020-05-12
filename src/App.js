@@ -15,9 +15,8 @@ const App = () => {
   return (
     <div className="App">
       {/* Add imported components here to render them */}
-      <PostsPage />
-      {/* username={posts.username} thumbnailUrl={posts.thumbnailUrl} */}
       <SearchBar />
+      <PostsPage />
     </div>
   );
 };
